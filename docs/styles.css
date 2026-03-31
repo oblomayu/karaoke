@@ -29,6 +29,7 @@ p {
 }
 
 button {
+    font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #AD7E78 0%, #AB8782 100%);
     color: white;
     border: none;
