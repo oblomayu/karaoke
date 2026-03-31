@@ -2,9 +2,74 @@
   <HEAD>
     <TITLE>Theme 1</TITLE>
   </HEAD>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Караоке для БМ</title>
+  <link rel="stylesheet" href="styles.css">
   <BODY BGCOLOR="#AB8782">
-      
+      <div class="container">
+          <h1>Выбери песню:</h1>
+          <style>
+              .page-container {
+                     display: flex;
+                     flex-direction: column;
+                     min-height: 100vh;
+                     padding: 20px;
+                 }
+              
+              .grid-container {
+                  display: grid;
+                  grid-template-columns: repeat(3, 1fr); /* 3 колонки одинаковой ширины */
+                  gap: 10px; /* расстояние между кнопками */
+                  max-width: 600px;
+                  margin: 0 auto;
+                  padding: 20px;
+              }
+              .grid-container button {
+                      padding: 15px;
+                      font-size: 16px;
+                      cursor: pointer;
+                  }
+                  
+                  .bottom-button {
+                      text-align: center;
+                      margin-top: 20px;
+                  }
+                  
+                  .bottom-link {
+                      font-family: Arial, sans-serif;
+                      display: inline-block;
+                      padding: 12px 30px;
+                      background-color: #E3D1CF;
+                      color: white;
+                      text-decoration: none;
+                      border-radius: 5px;
+                      font-size: 16px;
+                  }
+                  
+                  .bottom-link:hover {
+                      background-color: #E3D1CF;
+                  }
+              
+              button {
+                  padding: 15px;
+                  font-size: 16px;
+                  cursor: pointer;
+              }
+          </style>
+
+          <div class="grid-container">
+              <button onclick="window.location.href='https://youtu.be/NUNrgiDfPq8?si=WHz9VKhSQHdwKQ52'">Песня 1</button>
+              <button onclick="window.location.href='https://youtu.be/NUNrgiDfPq8?si=WHz9VKhSQHdwKQ52'">Песня 2</button>
+              <button onclick="window.location.href='https://youtu.be/NUNrgiDfPq8?si=WHz9VKhSQHdwKQ52'">Песня 3</button>
+              <button onclick="window.location.href='https://youtu.be/NUNrgiDfPq8?si=WHz9VKhSQHdwKQ52'">Песня 4</button>
+              <button onclick="window.location.href='https://youtu.be/NUNrgiDfPq8?si=WHz9VKhSQHdwKQ52'">Песня 5</button>
+              <button onclick="window.location.href='https://youtu.be/NUNrgiDfPq8?si=WHz9VKhSQHdwKQ52'">Песня 6</button>
+          </div>
+          <div class="bottom-button">
+                 <a href="startPage.html" class="bottom-link">Перейти назад к темам</a>
+             </div>
+      </div>
   </BODY>
 </HTML>
 

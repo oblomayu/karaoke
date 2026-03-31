@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Караоке для БМ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Темы:</h1>
+        <style>
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr); /* 3 колонки одинаковой ширины */
+                gap: 10px; /* расстояние между кнопками */
+                max-width: 600px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            
+            button {
+                padding: 15px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+        </style>
+
+        <div class="grid-container">
+            <button onclick="window.location.href='theme1.html'">Тема 1</button>
+            <button onclick="window.location.href='theme2.html'">Тема 2</button>
+            <button onclick="window.location.href='theme3.html'">Тема 3</button>
+            <button onclick="window.location.href='theme4.html'">Тема 4</button>
+            <button onclick="window.location.href='theme5.html'">Тема 5</button>
+            <button onclick="window.location.href='theme5.html'">Тема 6</button>
+        </div>
+    </div>
+</body>
+</html>
+
