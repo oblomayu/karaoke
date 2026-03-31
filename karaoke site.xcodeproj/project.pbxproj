@@ -8,9 +8,9 @@
 
 /* Begin PBXFileReference section */
 		41176C972F7861CF00E9196E /* karaokeServer.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = karaokeServer.java; sourceTree = "<group>"; };
-		41176C982F7861E800E9196E /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		41176C992F7861F800E9196E /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
 		41176C9A2F78622800E9196E /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		41D829862F7C2C6A00F3A3ED /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		41D829872F7C2C6A00F3A3ED /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -22,22 +22,22 @@
 			path = src;
 			sourceTree = "<group>";
 		};
-		41176C962F78617F00E9196E /* web */ = {
-			isa = PBXGroup;
-			children = (
-				41176C992F7861F800E9196E /* styles.css */,
-				41176C982F7861E800E9196E /* index.html */,
-			);
-			path = web;
-			sourceTree = "<group>";
-		};
 		4162EBE12F786057008FC2D6 = {
 			isa = PBXGroup;
 			children = (
+				41D829882F7C2C6A00F3A3ED /* docs */,
 				41176C9A2F78622800E9196E /* Makefile */,
-				41176C962F78617F00E9196E /* web */,
 				41176C952F78617500E9196E /* src */,
 			);
+			sourceTree = "<group>";
+		};
+		41D829882F7C2C6A00F3A3ED /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				41D829862F7C2C6A00F3A3ED /* index.html */,
+				41D829872F7C2C6A00F3A3ED /* styles.css */,
+			);
+			path = docs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
