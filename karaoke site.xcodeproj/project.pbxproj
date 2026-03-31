@@ -11,6 +11,12 @@
 		41176C9A2F78622800E9196E /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		41D829862F7C2C6A00F3A3ED /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		41D829872F7C2C6A00F3A3ED /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		41D829892F7C31EC00F3A3ED /* theme1.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = theme1.html; sourceTree = "<group>"; };
+		41D8298A2F7C31FA00F3A3ED /* theme2.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = theme2.html; sourceTree = "<group>"; };
+		41D8298B2F7C321900F3A3ED /* theme3.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = theme3.html; sourceTree = "<group>"; };
+		41D8298C2F7C322300F3A3ED /* theme4.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = theme4.html; sourceTree = "<group>"; };
+		41D8298D2F7C322C00F3A3ED /* theme5.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = theme5.html; sourceTree = "<group>"; };
+		41D8298E2F7C323500F3A3ED /* theme6.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = theme6.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -34,6 +40,12 @@
 		41D829882F7C2C6A00F3A3ED /* docs */ = {
 			isa = PBXGroup;
 			children = (
+				41D8298E2F7C323500F3A3ED /* theme6.html */,
+				41D8298D2F7C322C00F3A3ED /* theme5.html */,
+				41D8298C2F7C322300F3A3ED /* theme4.html */,
+				41D8298B2F7C321900F3A3ED /* theme3.html */,
+				41D8298A2F7C31FA00F3A3ED /* theme2.html */,
+				41D829892F7C31EC00F3A3ED /* theme1.html */,
 				41D829862F7C2C6A00F3A3ED /* index.html */,
 				41D829872F7C2C6A00F3A3ED /* styles.css */,
 			);
