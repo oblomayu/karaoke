@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #AB8782;
+    background: #971422;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -9,38 +9,46 @@ body {
 }
 
 .container {
-    background: white;
-    padding: 40px;
-    border-radius: 20px;
+    background: #e2decc;
+    padding: 5vw;      /* было 40px → теперь 5% от ширины окна */
+    border-radius: 4vw; /* было 20px → относительно ширины окна */
     text-align: center;
     box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-    max-width: 500px;
+    width: 60vw;       /* ширина = 80% от ширины окна */
+    max-width: none;   /* убираем ограничение 500px */
+    /* если нужна фиксированная пропорция (например, квадрат) */
+    /* aspect-ratio: 1 / 1; */
 }
 
 h1 {
-    color: #333;
-    margin-bottom: 20px;
+    color: #211f1f;
+    margin-bottom: 2vh;
+    font-size: 6vw;    /* размер шрифта = 6% от ширины окна */
 }
 
 p {
-    color: #666;
+    color: #211f1f;
     line-height: 1.6;
-    margin: 20px 0;
+    margin: 2vh 0;
+    font-size: 2.5vw;  /* текст масштабируется */
 }
 
 button {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #AD7E78 0%, #AB8782 100%);
-    color: white;
-    border: none;
-    padding: 12px 30px;
-    border-radius: 25px;
-    font-size: 16px;
+    background: linear-gradient(135deg, #e2decc 0%, #e2decc 100%);
+    color: #211f1f;
+    padding: 35px 20px;      /* увеличенные кнопки */
+    font-size: 22px;         /* крупный шрифт */
     cursor: pointer;
+    border: 2px solid #211f1f;
+    border-radius: 30px;
+    background: #e2decc;
     transition: transform 0.3s ease;
+    font-weight: bold;
 }
 
 button:hover {
-    transform: translateY(-2px);
+    transform: translateY(-0.5vh);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+

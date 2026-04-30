@@ -1,6 +1,6 @@
 <HTML>
   <HEAD>
-    <TITLE>Theme 2</TITLE>
+    <TITLE>САУНДТРЕКИ</TITLE>
   </HEAD>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="styles.css">
   <BODY BGCOLOR="#AB8782">
       <div class="container">
-          <h1>Выбери песню:</h1>
           <style>
               .page-container {
                      display: flex;
@@ -21,14 +20,15 @@
                   display: grid;
                   grid-template-columns: repeat(3, 1fr); /* 3 колонки одинаковой ширины */
                   gap: 10px; /* расстояние между кнопками */
-                  max-width: 600px;
+                  max-width: 800px;
                   margin: 0 auto;
-                  padding: 20px;
+                  padding: 30px;
               }
               .grid-container button {
-                      padding: 15px;
-                      font-size: 16px;
-                      cursor: pointer;
+                  padding: 35px 12px;   /* было 25px → увеличили вертикальный отступ */
+                  font-size: 24px;      /* было 16px → текст крупнее */
+                  cursor: pointer;
+                  font-weight: bold;
                   }
                   
                   .bottom-button {
@@ -40,34 +40,43 @@
                       font-family: Arial, sans-serif;
                       display: inline-block;
                       padding: 12px 30px;
-                      background-color: #E3D1CF;
-                      color: white;
+                      background-color: #e2decc;
+                      color: #211f1f;
                       text-decoration: none;
-                      border-radius: 5px;
+                      border-radius: 30px;
                       font-size: 16px;
+                      
                   }
                   
                   .bottom-link:hover {
-                      background-color: #E3D1CF;
+                      background-color: #971422;
+                      color: #e2decc;
                   }
+              .grid-container button:last-child {
+                  background-color: #211f1f;      /* новый цвет фона */
+                  color: #e2decc;                    /* цвет текста */
+                  border-color: #211f1f ;          /* цвет границы (если есть) */
+              }
               
               button {
-                  padding: 15px;
-                  font-size: 16px;
+                  padding: 35px 12px;   /* было 25px → увеличили вертикальный отступ */
+                  font-size: 24px;      /* было 16px → текст крупнее */
                   cursor: pointer;
+                  font-weight: bold;
               }
           </style>
 
           <div class="grid-container">
-              <button onclick="window.location.href='https://youtu.be/NUNrgiDfPq8?si=WHz9VKhSQHdwKQ52'">Песня 1</button>
-              <button onclick="window.location.href='https://youtu.be/NUNrgiDfPq8?si=WHz9VKhSQHdwKQ52'">Песня 2</button>
-              <button onclick="window.location.href='https://youtu.be/NUNrgiDfPq8?si=WHz9VKhSQHdwKQ52'">Песня 3</button>
-              <button onclick="window.location.href='https://youtu.be/NUNrgiDfPq8?si=WHz9VKhSQHdwKQ52'">Песня 4</button>
-              <button onclick="window.location.href='https://youtu.be/NUNrgiDfPq8?si=WHz9VKhSQHdwKQ52'">Песня 5</button>
-              <button onclick="window.location.href='https://youtu.be/NUNrgiDfPq8?si=WHz9VKhSQHdwKQ52'">Песня 6</button>
+              <button onclick="window.location.href='songs/1Любэ — Прорвемся Опера _Trim.mp4'">ЛЮБЭ - ПРОРВЕМСЯ</button>
+              <button onclick="window.location.href='songs/Город 312 - Останусь .mp4'">
+              ГОРОД 312 - ОСТАНУСЬ</button>
+              <button onclick="window.location.href='songs/Валерий Золотухин - Вдруг как в сказке.mp4'">ВАЛЕРИЙ ЗОЛОТУХИН - ВДРУГ КАК В СКАЗКЕ</button>
+              <button onclick="window.location.href='songs/Paramore - Decode - Twilight Soundtrack .mp4'">PARAMORE - DECODE</button>
+              <button onclick="window.location.href='songs/Би-2 - Полковнику никто не пишет.mp4'">БИ-2 - ПОЛКОВНИКУ НИКТО НЕ ПИШЕТ</button>
+              <button onclick="window.location.href='songs/Ранетки - О тебе .mp4'">?</button>
           </div>
           <div class="bottom-button">
-                 <a href="startPage.html" class="bottom-link">Перейти назад к темам</a>
+                 <a href="startPage.html" class="bottom-link">НАЗАД К ТЕМАМ</a>
              </div>
       </div>
   </BODY>
