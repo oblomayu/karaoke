@@ -1,0 +1,83 @@
+<HTML>
+  <HEAD>
+    <TITLE>РАШН ГËРЛЗ</TITLE>
+  </HEAD>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Караоке для БМ</title>
+  <link rel="stylesheet" href="styles.css">
+  <BODY BGCOLOR="#AB8782">
+      <div class="container">
+          <style>
+              .page-container {
+                     display: flex;
+                     flex-direction: column;
+                     min-height: 100vh;
+                     padding: 20px;
+                 }
+              
+              .grid-container {
+                  display: grid;
+                  grid-template-columns: repeat(3, 1fr); /* 3 колонки одинаковой ширины */
+                  gap: 10px; /* расстояние между кнопками */
+                  max-width: 800px;
+                  margin: 0 auto;
+                  padding: 30px;
+              }
+              .grid-container button {
+                  padding: 35px 12px;   /* было 25px → увеличили вертикальный отступ */
+                  font-size: 24px;      /* было 16px → текст крупнее */
+                  cursor: pointer;
+                  font-weight: bold;
+                  }
+                  
+                  .bottom-button {
+                      text-align: center;
+                      margin-top: 20px;
+                  }
+                  
+                  .bottom-link {
+                      font-family: Arial, sans-serif;
+                      display: inline-block;
+                      padding: 12px 30px;
+                      background-color: #e2decc;
+                      color: #211f1f;
+                      text-decoration: none;
+                      border-radius: 30px;
+                      font-size: 16px;
+                      
+                  }
+                  
+                  .bottom-link:hover {
+                      background-color: #971422;
+                      color: #e2decc;
+                  }
+              .grid-container button:last-child {
+                  background-color: #211f1f;      /* новый цвет фона */
+                  color: #e2decc;                    /* цвет текста */
+                  border-color: #211f1f ;          /* цвет границы (если есть) */
+              }
+              
+              button {
+                  padding: 35px 12px;   /* было 25px → увеличили вертикальный отступ */
+                  font-size: 24px;      /* было 16px → текст крупнее */
+                  cursor: pointer;
+                  font-weight: bold;
+              }
+          </style>
+
+          <div class="grid-container">
+              <button onclick="window.location.href='songs/Татьяна Буланова - Ясный мой свет .mp4'">ТАТЬЯНА БУЛАНОВА - ЯСНЫЙ МОЙ СВЕТ</button>
+              <button onclick="window.location.href='songs/Алла Пугачёва - Позови меня с собой .mp4'">АЛЛА ПУГАЧЕВА - ПОЗОВИ МЕНЯ С СОБОЙ</button>
+              <button onclick="window.location.href='songs/Ирина Салтыкова - Серые глаза .mp4'">ИРИНА САЛТЫКОВА - СЕРЫЕ ГЛАЗА</button>
+              <button onclick="window.location.href='songs/Монеточка - Нимфоманка.mp4'">МОНЕТОЧКА - НИМФОМАНКА</button>
+              <button onclick="window.location.href='songs/Наталья Ветлицкая - Посмотри в глаза .mp4'">НАТАЛЬЯ ВЕТЛИЦКАЯ - ПОСМОТРИ В ГЛАЗА</button>
+              <button onclick="window.location.href='songs/1Комбинация — Бухгалтер _Trim.mp4'">?</button>
+          </div>
+          <div class="bottom-button">
+                 <a href="startPage.html" class="bottom-link">НАЗАД К ТЕМАМ</a>
+             </div>
+      </div>
+  </BODY>
+</HTML>
+

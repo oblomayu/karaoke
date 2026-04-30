@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Караоке для БМ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <style>
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr); /* 3 колонки одинаковой ширины */
+                gap: clamp(12px, 3vw, 30px);           /* отступы между кнопками: от 8px до 20px, но 2% ширины окна */
+                width: 80vw;                          /* ширина сетки = 80% от ширины окна (как у .container) */
+                max-width: 600px;                    /* ограничиваем на очень широких экранах */
+                margin: 0 auto;
+                padding: clamp(10px, 3vw, 40px);      /* внутренние отступы: минимум 10px, норма 3vw, максимум 40px */
+                background: transparent;              /* или можно задать фон, если нужно */
+            }
+            
+            button {
+                padding: 35px 12px;   /* было 25px → увеличили вертикальный отступ */
+                font-size: 24px;      /* было 16px → текст крупнее */
+                cursor: pointer;
+                font-weight: bold;
+            }
+        </style>
+
+        <div class="grid-container">
+            <button onclick="window.location.href='theme1.html'">DRAMA KINGS</button>
+            <button onclick="window.location.href='theme2.html'">САУНДТРЕКИ</button>
+            <button onclick="window.location.href='theme3.html'">РАШН ГËРЛЗ</button>
+            <button onclick="window.location.href='theme4.html'">ЭМОКОР</button>
+            <button onclick="window.location.href='theme5.html'">LEGENDARY</button>
+            <button onclick="window.location.href='theme6.html'">РУССКИЙ РОК</button>
+        </div>
+    </div>
+</body>
+</html>
+
