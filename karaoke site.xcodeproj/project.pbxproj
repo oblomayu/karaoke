@@ -9,6 +9,42 @@
 /* Begin PBXFileReference section */
 		41176C972F7861CF00E9196E /* karaokeServer.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = karaokeServer.java; sourceTree = "<group>"; };
 		41176C9A2F78622800E9196E /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		4178C78C2FA3DEC200DDDC94 /* acdc.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = acdc.html; sourceTree = "<group>"; };
+		4178C78D2FA3DEC200DDDC94 /* agata.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = agata.html; sourceTree = "<group>"; };
+		4178C78E2FA3DEC200DDDC94 /* animal.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = animal.html; sourceTree = "<group>"; };
+		4178C78F2FA3DEC200DDDC94 /* avril.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = avril.html; sourceTree = "<group>"; };
+		4178C7902FA3DEC200DDDC94 /* bi2.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = bi2.html; sourceTree = "<group>"; };
+		4178C7912FA3DEC200DDDC94 /* bring.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = bring.html; sourceTree = "<group>"; };
+		4178C7922FA3DEC200DDDC94 /* byh.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = byh.html; sourceTree = "<group>"; };
+		4178C7932FA3DEC200DDDC94 /* chi.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = chi.html; sourceTree = "<group>"; };
+		4178C7942FA3DEC200DDDC94 /* depeche.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = depeche.html; sourceTree = "<group>"; };
+		4178C7952FA3DEC200DDDC94 /* doroga.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = doroga.html; sourceTree = "<group>"; };
+		4178C7962FA3DEC200DDDC94 /* glaza.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = glaza.html; sourceTree = "<group>"; };
+		4178C7972FA3DEC200DDDC94 /* grey.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = grey.html; sourceTree = "<group>"; };
+		4178C7982FA3DEC200DDDC94 /* kino.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = kino.html; sourceTree = "<group>"; };
+		4178C7992FA3DEC200DDDC94 /* lumen.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = lumen.html; sourceTree = "<group>"; };
+		4178C79A2FA3DEC200DDDC94 /* madona.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = madona.html; sourceTree = "<group>"; };
+		4178C79B2FA3DEC200DDDC94 /* meds.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = meds.html; sourceTree = "<group>"; };
+		4178C79C2FA3DEC200DDDC94 /* monetka.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = monetka.html; sourceTree = "<group>"; };
+		4178C79D2FA3DEC200DDDC94 /* nirvana.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = nirvana.html; sourceTree = "<group>"; };
+		4178C79E2FA3DEC200DDDC94 /* people.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = people.html; sourceTree = "<group>"; };
+		4178C79F2FA3DEC200DDDC94 /* pozovi.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = pozovi.html; sourceTree = "<group>"; };
+		4178C7A02FA3DEC200DDDC94 /* queen.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = queen.html; sourceTree = "<group>"; };
+		4178C7A12FA3DEC200DDDC94 /* tokio.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = tokio.html; sourceTree = "<group>"; };
+		4178C7A22FA3DEC200DDDC94 /* zemf.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = zemf.html; sourceTree = "<group>"; };
+		4187A74E2FA3D62A004471B9 /* vsamoe.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = vsamoe.html; sourceTree = "<group>"; };
+		4187A7512FA3D764004471B9 /* bilan.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = bilan.html; sourceTree = "<group>"; };
+		4187A7522FA3D804004471B9 /* dorn.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = dorn.html; sourceTree = "<group>"; };
+		4187A7532FA3D848004471B9 /* dramy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = dramy.html; sourceTree = "<group>"; };
+		4187A7542FA3D8A6004471B9 /* quest.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = quest.html; sourceTree = "<group>"; };
+		4187A7552FA3D8F8004471B9 /* vahta.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = vahta.html; sourceTree = "<group>"; };
+		4187A7562FA3D9C8004471B9 /* ulica.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ulica.html; sourceTree = "<group>"; };
+		4187A7572FA3D9D7004471B9 /* ranetki.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ranetki.html; sourceTree = "<group>"; };
+		4187A7582FA3D9FB004471B9 /* dozor.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = dozor.html; sourceTree = "<group>"; };
+		4187A7592FA3DA04004471B9 /* ivan.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ivan.html; sourceTree = "<group>"; };
+		4187A75A2FA3DA0D004471B9 /* twilight.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = twilight.html; sourceTree = "<group>"; };
+		4187A75B2FA3DA18004471B9 /* brat.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = brat.html; sourceTree = "<group>"; };
+		4187A75C2FA3DCFC004471B9 /* bylanova.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = bylanova.html; sourceTree = "<group>"; };
 		41D829862F7C2C6A00F3A3ED /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		41D829872F7C2C6A00F3A3ED /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
 		41D829892F7C31EC00F3A3ED /* theme1.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = theme1.html; sourceTree = "<group>"; };
@@ -41,11 +77,47 @@
 		41D829882F7C2C6A00F3A3ED /* docs */ = {
 			isa = PBXGroup;
 			children = (
+				4187A75C2FA3DCFC004471B9 /* bylanova.html */,
+				4187A75B2FA3DA18004471B9 /* brat.html */,
+				4187A75A2FA3DA0D004471B9 /* twilight.html */,
+				4187A7592FA3DA04004471B9 /* ivan.html */,
+				4187A7582FA3D9FB004471B9 /* dozor.html */,
+				4187A7572FA3D9D7004471B9 /* ranetki.html */,
+				4187A7562FA3D9C8004471B9 /* ulica.html */,
+				4187A7552FA3D8F8004471B9 /* vahta.html */,
+				4187A7542FA3D8A6004471B9 /* quest.html */,
+				4187A7532FA3D848004471B9 /* dramy.html */,
+				4187A7522FA3D804004471B9 /* dorn.html */,
+				4187A7512FA3D764004471B9 /* bilan.html */,
+				4187A74E2FA3D62A004471B9 /* vsamoe.html */,
 				41D8298E2F7C323500F3A3ED /* theme6.html */,
 				41D8298D2F7C322C00F3A3ED /* theme5.html */,
 				41D8298C2F7C322300F3A3ED /* theme4.html */,
 				41D8298B2F7C321900F3A3ED /* theme3.html */,
 				41D8298A2F7C31FA00F3A3ED /* theme2.html */,
+				4178C78C2FA3DEC200DDDC94 /* acdc.html */,
+				4178C78D2FA3DEC200DDDC94 /* agata.html */,
+				4178C78E2FA3DEC200DDDC94 /* animal.html */,
+				4178C78F2FA3DEC200DDDC94 /* avril.html */,
+				4178C7902FA3DEC200DDDC94 /* bi2.html */,
+				4178C7912FA3DEC200DDDC94 /* bring.html */,
+				4178C7922FA3DEC200DDDC94 /* byh.html */,
+				4178C7932FA3DEC200DDDC94 /* chi.html */,
+				4178C7942FA3DEC200DDDC94 /* depeche.html */,
+				4178C7952FA3DEC200DDDC94 /* doroga.html */,
+				4178C7962FA3DEC200DDDC94 /* glaza.html */,
+				4178C7972FA3DEC200DDDC94 /* grey.html */,
+				4178C7982FA3DEC200DDDC94 /* kino.html */,
+				4178C7992FA3DEC200DDDC94 /* lumen.html */,
+				4178C79A2FA3DEC200DDDC94 /* madona.html */,
+				4178C79B2FA3DEC200DDDC94 /* meds.html */,
+				4178C79C2FA3DEC200DDDC94 /* monetka.html */,
+				4178C79D2FA3DEC200DDDC94 /* nirvana.html */,
+				4178C79E2FA3DEC200DDDC94 /* people.html */,
+				4178C79F2FA3DEC200DDDC94 /* pozovi.html */,
+				4178C7A02FA3DEC200DDDC94 /* queen.html */,
+				4178C7A12FA3DEC200DDDC94 /* tokio.html */,
+				4178C7A22FA3DEC200DDDC94 /* zemf.html */,
 				41D829892F7C31EC00F3A3ED /* theme1.html */,
 				41D829862F7C2C6A00F3A3ED /* index.html */,
 				41D829912F7C3A2000F3A3ED /* startPage.html */,
