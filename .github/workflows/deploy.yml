@@ -2,11 +2,11 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"]  # замените на вашу ветку, если нужно
+    branches: ["main"]  # ИЛИ "master" — проверьте, как называется ваша ветка
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write    # МЕНЯЕМ: нужно для деплоя в ветку gh-pages
   pages: write
   id-token: write
 
@@ -24,13 +24,26 @@ jobs:
       - name: Checkout repository with LFS
         uses: actions/checkout@v4
         with:
-          lfs: true   # 🔑 КЛЮЧЕВОЙ ПАРАМЕТР — включает загрузку реальных LFS-файлов
+          lfs: true
+          
+      - name: List files for debugging (optional)
+        run: ls -la
+          
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
+          
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'   # или './docs', если сайт в папке docs
+          path: '.'
+          
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
